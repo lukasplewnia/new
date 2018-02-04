@@ -1,0 +1,22 @@
+// Datei: 07-plugin-final.js
+(function($, window) {
+
+$.fn.pluginName = function(user_options) {
+
+var defaults = {
+
+// key:value pairs
+
+}
+
+var config = $.extend(defaults, user_options || {});
+
+return this.each(function() {
+
+// plugin logic
+
+});
+
+}
+
+})(jQuery, window);
